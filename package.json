@@ -1,9 +1,16 @@
+
 {
-  "devDependencies": {
-    "react-router-dom": "^6.4.1"
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "devStart": "nodemon app.js"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "@material-ui/core": "^4.12.4",
     "bootstrap": "^5.2.2",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
